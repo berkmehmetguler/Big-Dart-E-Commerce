@@ -3,6 +3,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
+  images: {
+    domains: ["bigdart.com.tr", "www.w3.org"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

@@ -18,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head></head>
+      <head className="scroll-smooth hover:scroll-auto"></head>
       <body>{children}</body>
     </html>
   );

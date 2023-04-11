@@ -1,16 +1,17 @@
+import React from "react";
 import Navbar from "@/components/Navbar";
-import Carousel from "@/components/Carousel";
+import HeroBanner from "../components/HeroBanner";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <html>
       <head>
-        <title>Big Dart E-Commerce</title>
+        <title>Big Dart E-Commerce | Anasayfa</title>
       </head>
       <body>
         <main>
           <Navbar />
-          <Carousel />
+          <HeroBanner />
         </main>
       </body>
     </html>
