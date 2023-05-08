@@ -12,10 +12,10 @@ const Navbar = () => {
   return (
     <header className="border-b mb-4">
       <div className="text-center text-white shadow-md text-sm  md:text-md font-bold   bg-black">
-        <div className=" grid grid-cols-2 lg:grid-cols-3">
+        <div className=" h-8 grid grid-cols-2 lg:grid-cols-3 text-[15px] place-content-center">
           <Link href="/">200 TL UZERI KARGO UCRETSIZ</Link>
           <Link href="/">TUM URUNLERDE SEZON BOYU INDIRIM</Link>
-          <div className="grid-cols-2 hidden mx-auto  lg:flex space-x-10">
+          <div className="grid-cols-2 hidden mx-auto  lg:flex gap-4">
             <Link href="/">+90 506 153 34 47</Link>
             <Link href="/">Kargom Nerede ?</Link>
           </div>
