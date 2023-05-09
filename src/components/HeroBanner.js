@@ -13,11 +13,14 @@ import Slider1 from "../assets/slider-kasim-4.jpeg";
 import Slider2 from "../assets/slider-kasim-6.jpeg";
 import Slider3 from "../assets/slider-kasim-7.jpeg";
 import Slider4 from "../assets/slider-kasim-8.jpeg";
+import Slider5 from "../assets/slider-kasim-55.jpeg";
+import Slider6 from "../assets/slider-kasim-99.jpeg";
+import Slider7 from "../assets/slider-kasim-100.jpeg";
 
 const HeroBanner = () => {
   return (
     <section>
-      <div className="flex">
+      <div className="flex mb-4">
         <div className="grid gap-8 mx-auto container ">
           <div className="">
             <Link href="/giyim">
@@ -56,26 +59,34 @@ const HeroBanner = () => {
 
 
               <Link href="mont">
-                <Image src={Slider3} alt=" mont" className="h-full  w-full" />
+                <Image src={Slider6} alt=" mont" className="h-full  w-full" />
               </Link>
           </div>
 
             <div>
 
               <Link href="mont" className="">
-                <Image src={Slider4} alt=" mont" className="h-auto  w-full" />
+                <Image src={Slider4} alt=" mont" className="h-full  w-full" />
               </Link>
             </div>
-          {/* <Link href="/giyim">
-            <Image
-              src={Carousel1}
-              alt="Carousel2"
-              className="h-full w-full rounded"
-            />
-          </Link> */}
+
+            <div className="grid grid-cols  md:grid-cols-3 h-full gap-4" >
+
+              <Link href="ceket">
+                <Image src={Slider5} alt="ceket" className="h-full  w-full" />
+              </Link>
+
+              <Link href="mont">
+                <Image src={Slider3} alt=" mont" className="h-full  w-full" />
+              </Link>
+
+
+              <Link href="mont">
+                <Image src={Slider7} alt=" mont" className="h-full  w-full" />
+              </Link>
+            </div>
         </div>
       </div>
-      <div></div>
     </section>
   );
 };
