@@ -44,26 +44,26 @@ const HeroBanner = () => {
             </div>
           </div> */}
 
-          <div className="grid grid-cols-3 h-full  gap-4" >
+          <div className="grid grid-cols  md:grid-cols-3 h-full gap-4" >
 
               <Link href="ceket">
-                <Image src={Slider1} alt="ceket" className="h-auto " />
+                <Image src={Slider1} alt="ceket" className="h-full  w-full" />
               </Link>
 
               <Link href="mont">
-                <Image src={Slider2} alt=" mont" className="h-auto " />
+                <Image src={Slider2} alt=" mont" className="h-full  w-full" />
               </Link>
 
 
               <Link href="mont">
-                <Image src={Slider3} alt=" mont" className="h-auto " />
+                <Image src={Slider3} alt=" mont" className="h-full  w-full" />
               </Link>
           </div>
 
             <div>
 
               <Link href="mont" className="">
-                <Image src={Slider4} alt=" mont" className="h-auto " />
+                <Image src={Slider4} alt=" mont" className="h-auto  w-full" />
               </Link>
             </div>
           {/* <Link href="/giyim">

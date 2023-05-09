@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
 
         <nav className="hidden lg:flex items-center">
-          <ul className="flex gap-8 items-center uppercase  ">
+          <ul className="flex gap-4 items-center uppercase  ">
             <li className=" mx-auto transition-all ease-in-out tracking-wide">
               <Link
                 className=" transition-all ease-in-out hover:border-b-2 hover:border-slate-300  text-lg uppercase"
