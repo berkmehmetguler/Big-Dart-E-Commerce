@@ -19,7 +19,7 @@ const HeroBanner = () => {
     <section>
       <div className="flex">
         <div className="grid gap-8 mx-auto container ">
-          <div>
+          <div className="">
             <Link href="/giyim">
               <Image
                 src={Carousel2}
