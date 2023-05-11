@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <header className="border-b mb-4">
       <div className="text-center text-white shadow-md text-sm  md:text-md font-bold bg-gray-900">
-        <div className="hidden md:grid h-8 grid-cols-2 lg:grid-cols-3 text-[15px] place-content-center">
+        <div className="hidden md:grid h-10 grid-cols-2 lg:grid-cols-3 text-[15px]  place-content-center">
           <Link href="/">200 TL UZERI KARGO UCRETSIZ</Link>
           <Link href="/">TUM URUNLERDE SEZON BOYU INDIRIM</Link>
           <div className="grid-cols-2 hidden mx-auto  lg:flex gap-4">
