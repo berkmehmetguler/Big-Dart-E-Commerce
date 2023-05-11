@@ -1,11 +1,9 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
-import HeroBanner from "../components/HeroBanner";
-import Footer from "../components/Footer";
-import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import "@fortawesome/fontawesome-free/css/all.min.css";
+import HeroBanner from "@/components/HeroBanner";
+import Footer from "@/components/Footer";
 
-export default function HomePage() {
+export default function HomePage( ) {
   return (
     <html>
       <head>
@@ -15,7 +13,7 @@ export default function HomePage() {
         <main>
           <Navbar />
           <HeroBanner />
-          <Footer/>
+          <Footer />  
         </main>
       </body>
     </html>

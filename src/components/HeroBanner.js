@@ -1,12 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Swiper from "swiper";
-import Carousel1 from "../assets/Carousel-Item.jpg";
+
 import Carousel2 from "../assets/Carousel-Item2.jpg";
-import Carousel3 from "../assets/Carousel-Item3.jpg";
-import Carousel4 from "../assets/Carousel-Item4.jpg";
-import Carousel5 from "../assets/Carousel-Item5.jpg";
 
 import Slider1 from "../assets/slider-kasim-4.jpeg";
 
@@ -22,15 +18,15 @@ const HeroBanner = () => {
     <section>
       <div className="flex mb-4">
         <div className="grid gap-8 mx-auto container ">
-          <div className="">
-            <Link href="/giyim">
+
+            <Link href="/enyeniler">
               <Image
                 src={Carousel2}
                 alt="Carousel2"
-                className="sm:h-full w-full rounded"
+                className="md:h-full h-96 w-full rounded"
               />
             </Link>
-          </div>
+  
 
           {/* <div className="flex flex-row gap-4">
 
@@ -49,40 +45,40 @@ const HeroBanner = () => {
 
           <div className="grid grid-cols  md:grid-cols-3 h-full gap-4" >
 
-              <Link href="ceket">
-                <Image src={Slider1} alt="ceket" className="h-full  w-full" />
+              <Link href="/giyim/ceket">
+                <Image src={Slider1} alt="ceket" className="h-full  rounded w-full" />
               </Link>
 
-              <Link href="mont">
-                <Image src={Slider2} alt=" mont" className="h-full  w-full" />
+              <Link href="giyim/kaban">
+                <Image src={Slider2} alt=" mont" className="h-full rounded w-full" />
               </Link>
 
 
-              <Link href="mont">
-                <Image src={Slider6} alt=" mont" className="h-full  w-full" />
+              <Link href="giyim/trenckot">
+                <Image src={Slider6} alt=" mont" className="h-full rounded w-full" />
               </Link>
           </div>
 
-            <div>
 
-              <Link href="mont" className="">
-                <Image src={Slider4} alt=" mont" className="h-full  w-full" />
+
+              <Link href="/aksesuar" className="">
+                <Image src={Slider4} alt=" mont" className="md:h-full h-96 w-full" />
               </Link>
-            </div>
+
 
             <div className="grid grid-cols  md:grid-cols-3 h-full gap-4" >
 
-              <Link href="ceket">
-                <Image src={Slider5} alt="ceket" className="h-full  w-full" />
+              <Link href="/giyim/mont">
+                <Image src={Slider5} alt="ceket" className="h-full rounded w-full" />
               </Link>
 
-              <Link href="mont">
-                <Image src={Slider3} alt=" mont" className="h-full  w-full" />
+              <Link href="/giyim/yelek">
+                <Image src={Slider3} alt=" mont" className="h-full rounded w-full" />
               </Link>
 
 
-              <Link href="mont">
-                <Image src={Slider7} alt=" mont" className="h-full  w-full" />
+              <Link href="/giyim/kazak">
+                <Image src={Slider7} alt=" mont" className="h-full rounded w-full" />
               </Link>
             </div>
         </div>
