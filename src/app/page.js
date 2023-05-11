@@ -7,7 +7,7 @@ export default function HomePage( ) {
   return (
     <html>
       <head>
-        <title>Big Dart Women's Clothing | Shop the Latest Trends Online | Safe and Fast Quality Products Bigdart</title>
+        <title>Bigdart - Women's Clothing | Shop the Latest Trends Online | Safe and Fast Quality Products Bigdart</title>
       </head>
       <body>
         <main>
